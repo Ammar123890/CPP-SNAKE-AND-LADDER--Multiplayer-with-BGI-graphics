@@ -1,6 +1,3 @@
-/*  19L-1110 Muhammad Arslan Tariq
-    19L-1095 Talha Ahmed
-    Section CS-K  */
 
 
 #include <iostream>
