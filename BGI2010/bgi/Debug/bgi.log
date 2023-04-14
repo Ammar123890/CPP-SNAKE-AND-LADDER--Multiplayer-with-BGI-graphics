@@ -1,0 +1,43 @@
+﻿Build started 3/9/2012 4:11:57 PM.
+Project "C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\bgi.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\bgi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cxx
+  main.cxx
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(333): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(367): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(388): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\bgi\main.cxx(397): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bgi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+  Debug\dibutil.obj
+  Debug\drawing.obj
+  Debug\file.obj
+  Debug\misc.obj
+  Debug\mouse.obj
+  Debug\palette.obj
+  Debug\main.obj
+  Debug\text.obj
+  Debug\winbgi.obj
+  Debug\winthread.obj
+  LINK : C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.exe not found or not built by the last incremental link; performing full link
+  bgi.vcxproj -> C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\Debug\bgi.exe;#1" /manifest Debug\bgi.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\bgi.unsuccessfulbuild".
+  Touching "Debug\bgi.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\bgi\bgi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.10
